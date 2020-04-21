@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5803CFB2445873700638EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5803CFA2445873700638EAB /* AppDelegate.swift */; };
+		A5803CFD2445873700638EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5803CFC2445873700638EAB /* ViewController.swift */; };
+		A5803CFF2445873700638EAB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A5803CFE2445873700638EAB /* Experience.rcproject */; };
+		A5803D022445873700638EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5803D002445873700638EAB /* Main.storyboard */; };
+		A5803D042445873B00638EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5803D032445873B00638EAB /* Assets.xcassets */; };
+		A5803D072445873B00638EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5803D052445873B00638EAB /* LaunchScreen.storyboard */; };
+		A5803D122445873B00638EAB /* KRealityKitDemo001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5803D112445873B00638EAB /* KRealityKitDemo001Tests.swift */; };
+		A5803D1D2445873B00638EAB /* KRealityKitDemo001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5803D1C2445873B00638EAB /* KRealityKitDemo001UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5803D0E2445873B00638EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5803CEF2445873700638EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5803CF62445873700638EAB;
+			remoteInfo = KRealityKitDemo001;
+		};
+		A5803D192445873B00638EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5803CEF2445873700638EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5803CF62445873700638EAB;
+			remoteInfo = KRealityKitDemo001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5803CF72445873700638EAB /* KRealityKitDemo001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRealityKitDemo001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5803CFA2445873700638EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5803CFC2445873700638EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5803CFE2445873700638EAB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		A5803D012445873700638EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5803D032445873B00638EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5803D062445873B00638EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5803D082445873B00638EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5803D0D2445873B00638EAB /* KRealityKitDemo001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRealityKitDemo001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5803D112445873B00638EAB /* KRealityKitDemo001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRealityKitDemo001Tests.swift; sourceTree = "<group>"; };
+		A5803D132445873B00638EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5803D182445873B00638EAB /* KRealityKitDemo001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRealityKitDemo001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5803D1C2445873B00638EAB /* KRealityKitDemo001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRealityKitDemo001UITests.swift; sourceTree = "<group>"; };
+		A5803D1E2445873B00638EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5803CF42445873700638EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5803D0A2445873B00638EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5803D152445873B00638EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5803CEE2445873700638EAB = {
+			isa = PBXGroup;
+			children = (
+				A5803CF92445873700638EAB /* KRealityKitDemo001 */,
+				A5803D102445873B00638EAB /* KRealityKitDemo001Tests */,
+				A5803D1B2445873B00638EAB /* KRealityKitDemo001UITests */,
+				A5803CF82445873700638EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5803CF82445873700638EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5803CF72445873700638EAB /* KRealityKitDemo001.app */,
+				A5803D0D2445873B00638EAB /* KRealityKitDemo001Tests.xctest */,
+				A5803D182445873B00638EAB /* KRealityKitDemo001UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5803CF92445873700638EAB /* KRealityKitDemo001 */ = {
+			isa = PBXGroup;
+			children = (
+				A5803CFA2445873700638EAB /* AppDelegate.swift */,
+				A5803CFC2445873700638EAB /* ViewController.swift */,
+				A5803CFE2445873700638EAB /* Experience.rcproject */,
+				A5803D002445873700638EAB /* Main.storyboard */,
+				A5803D032445873B00638EAB /* Assets.xcassets */,
+				A5803D052445873B00638EAB /* LaunchScreen.storyboard */,
+				A5803D082445873B00638EAB /* Info.plist */,
+			);
+			path = KRealityKitDemo001;
+			sourceTree = "<group>";
+		};
+		A5803D102445873B00638EAB /* KRealityKitDemo001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5803D112445873B00638EAB /* KRealityKitDemo001Tests.swift */,
+				A5803D132445873B00638EAB /* Info.plist */,
+			);
+			path = KRealityKitDemo001Tests;
+			sourceTree = "<group>";
+		};
+		A5803D1B2445873B00638EAB /* KRealityKitDemo001UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5803D1C2445873B00638EAB /* KRealityKitDemo001UITests.swift */,
+				A5803D1E2445873B00638EAB /* Info.plist */,
+			);
+			path = KRealityKitDemo001UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5803CF62445873700638EAB /* KRealityKitDemo001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5803D212445873B00638EAB /* Build configuration list for PBXNativeTarget "KRealityKitDemo001" */;
+			buildPhases = (
+				A5803CF32445873700638EAB /* Sources */,
+				A5803CF42445873700638EAB /* Frameworks */,
+				A5803CF52445873700638EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRealityKitDemo001;
+			productName = KRealityKitDemo001;
+			productReference = A5803CF72445873700638EAB /* KRealityKitDemo001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5803D0C2445873B00638EAB /* KRealityKitDemo001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5803D242445873B00638EAB /* Build configuration list for PBXNativeTarget "KRealityKitDemo001Tests" */;
+			buildPhases = (
+				A5803D092445873B00638EAB /* Sources */,
+				A5803D0A2445873B00638EAB /* Frameworks */,
+				A5803D0B2445873B00638EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5803D0F2445873B00638EAB /* PBXTargetDependency */,
+			);
+			name = KRealityKitDemo001Tests;
+			productName = KRealityKitDemo001Tests;
+			productReference = A5803D0D2445873B00638EAB /* KRealityKitDemo001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5803D172445873B00638EAB /* KRealityKitDemo001UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5803D272445873B00638EAB /* Build configuration list for PBXNativeTarget "KRealityKitDemo001UITests" */;
+			buildPhases = (
+				A5803D142445873B00638EAB /* Sources */,
+				A5803D152445873B00638EAB /* Frameworks */,
+				A5803D162445873B00638EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5803D1A2445873B00638EAB /* PBXTargetDependency */,
+			);
+			name = KRealityKitDemo001UITests;
+			productName = KRealityKitDemo001UITests;
+			productReference = A5803D182445873B00638EAB /* KRealityKitDemo001UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5803CEF2445873700638EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "yulu kong";
+				TargetAttributes = {
+					A5803CF62445873700638EAB = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					A5803D0C2445873B00638EAB = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A5803CF62445873700638EAB;
+					};
+					A5803D172445873B00638EAB = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = A5803CF62445873700638EAB;
+					};
+				};
+			};
+			buildConfigurationList = A5803CF22445873700638EAB /* Build configuration list for PBXProject "KRealityKitDemo001" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5803CEE2445873700638EAB;
+			productRefGroup = A5803CF82445873700638EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5803CF62445873700638EAB /* KRealityKitDemo001 */,
+				A5803D0C2445873B00638EAB /* KRealityKitDemo001Tests */,
+				A5803D172445873B00638EAB /* KRealityKitDemo001UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5803CF52445873700638EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5803D072445873B00638EAB /* LaunchScreen.storyboard in Resources */,
+				A5803D042445873B00638EAB /* Assets.xcassets in Resources */,
+				A5803D022445873700638EAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5803D0B2445873B00638EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5803D162445873B00638EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5803CF32445873700638EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5803CFD2445873700638EAB /* ViewController.swift in Sources */,
+				A5803CFB2445873700638EAB /* AppDelegate.swift in Sources */,
+				A5803CFF2445873700638EAB /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5803D092445873B00638EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5803D122445873B00638EAB /* KRealityKitDemo001Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5803D142445873B00638EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5803D1D2445873B00638EAB /* KRealityKitDemo001UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5803D0F2445873B00638EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5803CF62445873700638EAB /* KRealityKitDemo001 */;
+			targetProxy = A5803D0E2445873B00638EAB /* PBXContainerItemProxy */;
+		};
+		A5803D1A2445873B00638EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5803CF62445873700638EAB /* KRealityKitDemo001 */;
+			targetProxy = A5803D192445873B00638EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5803D002445873700638EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5803D012445873700638EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5803D052445873B00638EAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5803D062445873B00638EAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5803D1F2445873B00638EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5803D202445873B00638EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5803D222445873B00638EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLWCRSS83U;
+				INFOPLIST_FILE = KRealityKitDemo001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wswy.l05.KRealityKitDemo001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5803D232445873B00638EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLWCRSS83U;
+				INFOPLIST_FILE = KRealityKitDemo001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wswy.l05.KRealityKitDemo001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5803D252445873B00638EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLWCRSS83U;
+				INFOPLIST_FILE = KRealityKitDemo001Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wswy.l05.KRealityKitDemo001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRealityKitDemo001.app/KRealityKitDemo001";
+			};
+			name = Debug;
+		};
+		A5803D262445873B00638EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLWCRSS83U;
+				INFOPLIST_FILE = KRealityKitDemo001Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wswy.l05.KRealityKitDemo001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRealityKitDemo001.app/KRealityKitDemo001";
+			};
+			name = Release;
+		};
+		A5803D282445873B00638EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLWCRSS83U;
+				INFOPLIST_FILE = KRealityKitDemo001UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wswy.l05.KRealityKitDemo001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRealityKitDemo001;
+			};
+			name = Debug;
+		};
+		A5803D292445873B00638EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLWCRSS83U;
+				INFOPLIST_FILE = KRealityKitDemo001UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wswy.l05.KRealityKitDemo001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRealityKitDemo001;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5803CF22445873700638EAB /* Build configuration list for PBXProject "KRealityKitDemo001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5803D1F2445873B00638EAB /* Debug */,
+				A5803D202445873B00638EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5803D212445873B00638EAB /* Build configuration list for PBXNativeTarget "KRealityKitDemo001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5803D222445873B00638EAB /* Debug */,
+				A5803D232445873B00638EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5803D242445873B00638EAB /* Build configuration list for PBXNativeTarget "KRealityKitDemo001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5803D252445873B00638EAB /* Debug */,
+				A5803D262445873B00638EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5803D272445873B00638EAB /* Build configuration list for PBXNativeTarget "KRealityKitDemo001UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5803D282445873B00638EAB /* Debug */,
+				A5803D292445873B00638EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5803CEF2445873700638EAB /* Project object */;
+}
